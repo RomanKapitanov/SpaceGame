@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Style/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="Style/menuBtnStyle.css">
+    <title>SpaceGame</title>
+</head>
+
+<body>
+
+    <section class="main_section">
+        <div class="container">
+            <div id="planet_levels"></div>
+            <div id="coin_counter">0</div>
+            <div id="ore_counter"></div>
+            <div id="ufo">НЛО</div>
+            <div id="planet">Планета</div>
+            <div id="fuel_info"></div>
+            <div id="notification"></div>
+            <div id="time_counter_mini_game"></div>
+        </div>
+    </section>
+    <section class="upgrade_section" style="display: none"></section>
+    <section class="resource_store_section" style="display: none"></section>
+    <section class="tasks_section" style="display: none"></section>
+    <section class="wallet_section" style="display: none"></section>
+
+    <div class="container_menu">
+        <div id="main_menu"></div>
+        <div id="upgrade_menu"></div>
+        <div id="resource_store_menu"></div>
+        <div id="tasks_menu"></div>
+        <div id="wallet_menu"></div>
+    </div>
+    <script src="../Backend/coinCounter.js"></script>
+    <script src="../Backend/switchingPage.js" type="module"></script>
+</body>
+
+</html>
