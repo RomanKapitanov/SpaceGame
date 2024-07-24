@@ -1,0 +1,56 @@
+.container_menu{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 3% 10% 8.8% 18.8% 1.9% 15% 1.9% 18.8% 8.8% 10% 3%;
+    grid-template-rows: 50% 50%;
+}
+
+#main_menu {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 10px;
+    background: #FFF;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+#upgrade_menu {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 10px;
+    background: #FFF;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#resource_store_menu {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 10px;
+    background: #FFF;
+    grid-column: 5 / span 3;
+    grid-row: 2;
+}
+
+#tasks_menu {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 10px;
+    background: #FFF;
+    grid-column: 8;
+    grid-row: 2;
+}
+
+#wallet_menu {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 10px;
+    background: #FFF;
+    grid-column: 9 / span 2;
+    grid-row: 2;
+}
