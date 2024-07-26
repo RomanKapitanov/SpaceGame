@@ -1,0 +1,5 @@
+{
+    "ConnectionString": {
+        "ConnectMySql": "database:dbspacegame;host:127.0.0.1;user:root;password:o57HEOe1trF7"
+    }
+}
